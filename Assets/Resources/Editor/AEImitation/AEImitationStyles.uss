@@ -1,0 +1,220 @@
+/* ================================
+   Header Settings
+   ================================ */
+.header-area {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center; 
+	width: 100%;
+	height: 50%;
+	background-color: rgba(56, 56, 56, 1);
+}
+
+.frame-info-area {
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
+	height: 60%;
+	background-color: rgba(48, 48, 48, 1);
+	border-width: 1px;
+	border-color: rgba(128, 128, 128, 1);
+}
+
+.frame-info-text {
+	color: white;
+}
+
+.header-flag-field {
+	width: 110px;
+}
+
+.header-flag-field__label {
+	min-width: 10px;
+}
+
+.data-pain {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.data-pain-header {
+	width: 100%;
+	height: 5%;
+	border-bottom-color: rgba(32, 32, 32, 1);
+	border-bottom-width: 1px;
+	overflow: hidden;
+}
+
+.data-pain-body {
+	width: 100%;
+	flex-grow: 1;
+}
+
+/* ================================
+   Key Pain Settings
+   ================================ */
+.key-pain-header-frame-text {
+	position: absolute;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.comment {
+	position: absolute;
+	font-size: 12px;
+}
+
+.comment-color {
+	color: rgba(127, 0, 0, 1);
+	background-color: rgba(255, 255, 0, 1);
+}
+
+.frame-line-base {
+	width: 1px;
+	height: 100%;
+	margin-left: 10px;
+}
+
+.frame-line {
+	background-color: black;
+}
+
+.frame-line-10 {
+	background-color: green;
+}
+
+.current-frame-area {
+	width: 15px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute; 
+	display: flex; 
+	align-items: center;
+	top: 0px;
+}
+
+.current-frame-line {
+	background-color: red;
+}
+
+.active-bar {
+	background-color: rgba(255, 253, 85, 1);
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: rgba(29, 97, 143, 1);
+	position: absolute; 
+}
+
+.active-bar-resize-area {
+	width: 15px;
+	position: absolute; 
+	margin-left: -7.5px;
+	background-color: rgba(80, 0, 0, 0);
+}
+
+.key-frame {
+	background-color: rgba(80, 0, 0, 0);
+	color: rgba(112, 255, 104, 1);
+	position: absolute;
+	font-size: 12px;
+	width: 30px;
+	-unity-text-align: middle-center;
+}
+
+.collapse-key-frame {
+	color: rgba(255, 0, 0, 1);
+	position: absolute;
+	font-size: 12px;
+	width: 30px;
+	height: 100%;
+	-unity-text-align: middle-center;
+}
+
+/* ================================
+   Hierarchy Pain Settings
+   ================================ */
+.treeveiw-item-node {
+	height: 100%;
+	justify-content: center;
+}
+
+.treeveiw-item-text {
+	font-size: 12px;
+}
+
+.element-name-field {
+	width:	100px;
+}
+
+/* ================================
+   Vector2 Field Settings
+   ================================ */
+.vector2-field {
+	width: 200px;
+}
+
+.unity-vector2-field__label {
+	min-width: 50px;
+}
+
+.unity-vector2-field__input {
+	padding-left: 20px;
+}
+
+.unity-composite-field__field {
+	width: 90px;
+}
+
+/* ================================
+   single-value Settings
+   ================================ */
+.single-value-field {
+	width: 132px;
+}
+
+.single-value-field__label {
+	min-width: 85px;
+}
+
+/* ================================
+   Color Field Settings
+   ================================ */
+.unity-color-field {
+	width: 195px;
+}
+
+/* ================================
+   Animator Dropdown Field Settings
+   ================================ */
+.animator-field__label {
+	min-width: 85px;
+}
+
+.unity-popup-field__input {
+	width: 90px;
+	min-width: 50px;
+}
+
+/* ================================
+   Asset Field Settings
+   ================================ */
+.choices-lable__input {
+	max-width: 70px;
+}
+   
+/* ================================
+   Asset Field Settings
+   ================================ */
+.asset-value-field {
+	width: 200px;
+}
+
+/* ================================
+   Flag Field Settings
+   ================================ */
+.flag-field {
+	width: 195px;
+}
