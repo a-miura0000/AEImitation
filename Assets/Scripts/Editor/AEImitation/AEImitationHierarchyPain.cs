@@ -230,6 +230,7 @@ namespace AEImitation
 					int index = list.IndexOf(value);
 					if(index < 0) index = 0;
 					var element = new DropdownField("Text", list, index);
+					element.AddToClassList("label-field");
 					element.labelElement.AddToClassList("single-value-field__label");
 					element.RegisterValueChangedCallback((evt) =>
 					{
@@ -270,6 +271,7 @@ namespace AEImitation
 					int index = list.IndexOf(value.label);
 					if(index < 0) index = 0;
 					var dropdownField = new DropdownField("Text", list, index);
+					dropdownField.AddToClassList("label-field");
 					dropdownField.labelElement.AddToClassList("single-value-field__label");
 					dropdownField.RegisterValueChangedCallback((evt) =>
 					{
